@@ -14,7 +14,6 @@
         <service id="epwt_array_jms_serializer.array_deserialization_visitor"
                  class="EPWT\ArrayJMSSerializerBundle\Visitor\ArrayDeserializationVisitor">
             <argument type="service" id="jms_serializer.naming_strategy"/>
-            <argument type="service" id="jms_serializer.object_constructor"/>
             <tag name="jms_serializer.deserialization_visitor" format="array"/>
         </service>
     </services>
